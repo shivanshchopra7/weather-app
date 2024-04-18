@@ -79,7 +79,13 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
-
+searchBox.addEventListener("keypress", function(event) {
+    // Check if the key pressed is Enter (key code 13)
+    if (event.keyCode === 13) {
+        // Call the checkWeather function with the value from the search input
+        checkWeather(searchBox.value);
+    }
+});
    
    </script>
 </body>

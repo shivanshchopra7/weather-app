@@ -81,3 +81,39 @@ width: 16px;
     font-size: 30px;
     margin-top: -6px;
 }
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 20px; /* Add padding for better spacing */
+        box-sizing: border-box; /* Ensure padding is included in width */
+        border-radius: 0; /* Remove border radius for mobile view */
+    }
+
+    .search input {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    .search button {
+        width: 50px; /* Decrease button size for smaller screens */
+        height: 50px;
+    }
+
+    .weather {
+        margin-top: 20px; /* Adjust margin for better spacing */
+    }
+
+    .weather-icon {
+        width: 100px; /* Adjust icon size for smaller screens */
+    }
+
+    .details {
+        flex-direction: column; /* Stack details vertically on smaller screens */
+        align-items: center; /* Center details horizontally */
+    }
+
+    .col {
+        margin-bottom: 10px; /* Add margin between detail items */
+    }
+}
