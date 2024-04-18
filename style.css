@@ -4,11 +4,11 @@ padding: 0;
 box-sizing: border-box;
 }
 body {
-    background-color:rgb(27, 27, 27);
+    background: linear-gradient(235deg, #00feba, #5b548a);
 }
 .card{
     width: 90%;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+   height: screen;
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
