@@ -84,6 +84,10 @@ width: 16px;
 
 
 @media (max-width: 600px) {
+.search {
+    width: 10%;
+}
+
     .card {
         width: 100%;
         padding: 20px; /* Add padding for better spacing */
